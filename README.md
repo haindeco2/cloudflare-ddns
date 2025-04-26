@@ -100,8 +100,8 @@ Do not include the base domain name in your `subdomains` config. Do not use the 
       "authentication": {
         "api_token": "api_token_here", // Either api_token or api_key
         "api_key": {
-          "api_key": "api_key_here",
-          "account_email": "your_email_here"
+          "api_key": "",
+          "account_email": ""
         }
       },
       "zone_id": "your_zone_id_here",
