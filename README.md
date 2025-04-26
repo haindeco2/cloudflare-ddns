@@ -90,8 +90,20 @@ For example, if you have a domain `example.com` and you want to host additional 
 Please remove the comments after `//` in the below example. They are only there to explain the config.
 
 Do not include the base domain name in your `subdomains` config. Do not use the [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name).
+Cài đặt cloudflare-ddns
+Tạo thư mục mới trên máy chủ
 
+```bash
+mkdir ~/cloudflare-ddns
+cd ~/cloudflare-ddns
+```
+Code language: Bash (bash)
+Tạo file config.json
+```bash
+nano config.json
 ### 👉 Example 🚀
+```
+
 
 ```bash
 {
